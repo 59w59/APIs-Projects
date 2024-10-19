@@ -173,5 +173,5 @@ func getRandomNumbers(length int) string {
 func randInt(n int) int {
 	source := rand.NewSource(time.Now().UnixNano())
 	randGen := rand.New(source)
-	return randGen.Intn(n);
+	return randGen.Intn(n)
 }
